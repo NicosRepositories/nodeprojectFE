@@ -5,17 +5,20 @@ class ReactDropdown extends React.Component {
     return (
       <div className="dropdown">
         <li>
-          <a href="#">Frameworks</a>
+          <a href="#">Tools</a>
         </li>
         <div className="dropdown-content">
           <li className="listItem">
-            <a href="../react-framework/index.html">React</a>
+            <a href="../employee-list/index.html">List</a>
           </li>
           <li className="listItem">
-            <a href="../api-call/index.html">API-Call</a>
+            <a href="../employee-search/index.html">Search</a>
           </li>
           <li className="listItem">
-            <a href="../teleport-api/index.html">Teleport-API</a>
+            <a href="../employee-create/index.html">Create</a>
+          </li>
+          <li className="listItem">
+            <a href="../employee-satisfaction/index.html">Happiness</a>
           </li>
         </div>
       </div>
